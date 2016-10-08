@@ -20,7 +20,6 @@ public class IServerService extends Service {
         return stub;
     }
 
-    private Book book;
     @Override
     public void onCreate() {
         super.onCreate();

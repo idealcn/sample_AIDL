@@ -45,4 +45,9 @@ public class Book implements Parcelable{
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
     }
+
+
+    public void readFromParcel(Parcel dest){
+        name = dest.readString();
+    }
 }
